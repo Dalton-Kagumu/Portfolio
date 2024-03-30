@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+
+        body{
+            display:flex;
+            color:white;
+            background-image: url('WhatsApp Image 2024-03-30 at 13.00.26_89e4b5d3.jpg'); 
+            background-size: cover; 
+            
+        }
+        .menu1, .menu2, .menu3, .menu4   {
+          position: relative;
+          flex: content;
+        }
+        .submenu {
+          opacity: 0;
+          pointer-events: none;
+          position: absolute;
+          top 50%
+          left: 0;
+          right: 10%;
+        }
+        .menu1:hover .submenu, .menu2:hover .submenu, .menu3:hover .submenu, .menu4:hover .submenu {
+          top: 100%;
+          opacity: 1;
+          pointer-events: all;
+        }
+
+    </style>
+</head>
+<body>
+  <ul class="menu1">
+    <p> Introduction
+    <img src="download.jpg" height="10px" width="10px"></img></p>
+    <ul class="submenu">
+      <p> My name is Kagumu Dalton. I proud lover of all things Computer. I am currently a student majoring in applied computer technology with a profound interest in the fields of cybersecurity and AI.I love the Lord and embody the values taught by the scriptures. </p>
+    </ul>
+  </ul>
+  <ul class="menu2">
+    <p> Values
+    <img src="download.jpg" height="10px" width="10px"></img></p>
+    <ul class="submenu">
+      <p>I am a christian and therefore try embody all the christian values. I love creating new things as it gives me unimaginable joy. I love computers and all they entail and i do believe that it is more than just a science its an art. My main goal in life is tho solve problems facing the society in all fields and hope to be a recognized inventor one day.</p>
+    </ul>
+  </ul>
+  <ul class="menu3">
+    <p> Strengths
+    <img src="download.jpg" height="10px" width="10px"></img></p>
+    <ul class="submenu">
+      <p>I am very good in computer hardware and are well versed with c++, python and several other programming languages. I have a strong work ethic and love what i do.</p>
+    </ul>
+  </ul>
+  <ul class="menu4">
+    <p> Personal experiences
+    <img src="download.jpg" height="10px" width="10px"></img></p>
+    <ul class="submenu">
+      <p>I have had some experience in engineering as a mechatronics engineer but in the process of studying it i fell in love with computers and therefore made the choice to switch careers. i still hold engineering greatly in my heart but i have a new better love who i have no plans of ending it with since computers give me great joy.</p>
+    </ul>
+  </ul>
+
+</body>
+</html>
